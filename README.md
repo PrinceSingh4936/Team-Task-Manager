@@ -172,4 +172,4 @@ npm run dev
 ---
 
 ## 📽 Demo Video
-[Link to demo video]
+[Link to demo video](https://drive.google.com/file/d/1kGudfNKKyFGSFsp0yoAFFMLX3ToXa_RO/view?usp=drive_link)
