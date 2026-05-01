@@ -125,6 +125,43 @@ CLIENT_URL=https://your-railway-domain.up.railway.app
 7. Your app will be live at the Railway-provided URL.
 
 ---
+
+---
+
+## Clone Guide
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/taskflow.git
+cd taskflow
+
+# 2. Set up backend env
+cd server
+cp .env.example .env
+# Edit .env with your MySQL credentials
+
+# 3. Install backend deps
+npm install
+
+# 4. Install frontend deps
+cd ../client
+npm install
+
+# 5. Create the MySQL database
+# Run in MySQL: CREATE DATABASE taskflow;
+
+# 6. Start the backend
+cd ../server
+npm run dev
+
+# 7. In a new terminal, start the frontend
+cd client
+npm run dev
+
+# App available at http://localhost:5173
+```
+
+---
 ## Notes
 
 - In production, the React build (`client/dist`) is served as static files by Express. There is no need to run the Vite dev server.
