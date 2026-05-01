@@ -125,3 +125,9 @@ CLIENT_URL=https://your-railway-domain.up.railway.app
 7. Your app will be live at the Railway-provided URL.
 
 ---
+## Notes
+
+- In production, the React build (`client/dist`) is served as static files by Express. There is no need to run the Vite dev server.
+- The database tables are created automatically on server startup — no migration tool is needed.
+- JWT tokens expire after **7 days**. Adjust in `routes/auth.js` if needed.
+- Task creation and deletion are restricted to project **admins**. Regular members can only change the `status` of tasks assigned directly to them.
