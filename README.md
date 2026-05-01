@@ -1,3 +1,6 @@
+## Live URL
+[https://devoted-radiance-production-647e.up.railway.app/](https://devoted-radiance-production-647e.up.railway.app/)
+
 # TaskFlow — Team Task Manager
 
 A full-stack team task management app built with React, Node.js, Express, and MySQL.
@@ -69,6 +72,3 @@ CLIENT_URL   = https://<your-railway-domain>.up.railway.app
 ### Railway auto-detects from `railway.toml`:
 - Build: `cd client && npm install && npm run build && cd ../server && npm install`
 - Start: `cd server && node index.js`
-
-## Live URL
-[https://devoted-radiance-production-647e.up.railway.app/](https://devoted-radiance-production-647e.up.railway.app/)
