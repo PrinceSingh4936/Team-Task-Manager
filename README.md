@@ -71,4 +71,4 @@ CLIENT_URL   = https://<your-railway-domain>.up.railway.app
 - Start: `cd server && node index.js`
 
 ## Live URL
-[https://your-railway-url.up.railway.app](https://devoted-radiance-production-647e.up.railway.app/)
+[https://devoted-radiance-production-647e.up.railway.app/](https://devoted-radiance-production-647e.up.railway.app/)
